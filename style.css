@@ -1,0 +1,99 @@
+
+body {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+
+.navbar {
+    justify-items: center;
+    padding: 10px;
+    text-align: right;
+
+}
+ 
+.navbar ul {
+    display: flex;
+    gap: 50px;
+    text-align: right;
+    font-size: larger;
+  }
+
+
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+
+  .row ul {
+    display: flex;
+    text-align: right;
+    font-size: larger;
+    height: 100%;
+  }
+
+  .text {
+    text-align: right;
+    bottom: 5px;
+    margin: 200px;
+    padding: 0px;
+    font-size: larger;
+    color: darkgreen;
+  }
+
+
+  .goods {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color: brown;
+    text-align: center;
+    font-size: larger;
+
+
+  }
+
+
+  .text-2 {
+    text-align: center;
+     bottom: 5px;
+     margin: 100px;
+     padding: 50px;
+     font-size: xx-large;
+     color: blue;
+  }
+
+
+  .text-3 {
+    color: blue;
+     margin: 30px;
+     padding: 30px;
+     font-size: larger
+  }
+
+  .drinks {
+    background-color: aquamarine;
+    font-size: xx-large;
+  }
+
+  .drinks .img-1 img {
+    margin-right: 20px; /* Adjust the value for the desired gap */
+  }
+  .drinks .img-1 {
+    display: flex;
+    gap: 0px; /* Adjust the value for the desired gap */
+  }
+    
+  
+
+
+ 
+  

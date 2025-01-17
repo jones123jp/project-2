@@ -1,0 +1,48 @@
+/* Set a background color for the entire body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark gray text for readability */
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark gray background for header */
+    color: #fff; /* White text */
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Center the container */
+    padding: 20px;
+    background: #fff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Section heading styles */
+.container h2 {
+    color: #444; /* Slightly lighter gray for headings */
+    margin-top: 1.5rem;
+}
+
+/* Paragraph styling */
+.container p {
+    margin: 0.5rem 0;
+}
+
+/* Add a hover effect for links (if any links are added) */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
